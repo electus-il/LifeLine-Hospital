@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+#header {
+  width: 100%;
+  background: #2ec8a6;
+  z-index: 2;
+  position: relative;
+}
+#header .firstul {
+  margin: 0 -15px;
+}
+#header .firstul ul {
+  padding: 5px;
+  margin: 0 -15px;
+}
+#header .firstul ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+}
+#header .firstul ul li a {
+  color: white;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+#header .firstul ul li a:hover {
+  color: orange;
+}
+#header .firstul ul li {
+  margin: 0 5px;
+}
+#header .firstul ul li:nth-child(2) i {
+  transform: rotate(90deg);
+}
+#header .firstul ul li i {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 13px;
+  border: 2px solid #41d3b3;
+  margin: 0 5px;
+}
+#header .secondtop .darker {
+  width: 170px;
+  float: right;
+  background: #249f84;
+}
+#header .secondtop .darker ul {
+  margin: 0;
+  font-size: 15px;
+  padding: 14px;
+}
+#header .secondtop .darker ul li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+}
+#header .secondtop .darker ul a {
+  text-decoration: none;
+  color: white;
+  transition: all .5s ease;
+  margin-left: 15px;
+}
+#header .secondtop .darker ul a:hover {
+  color: orange;
+}
+
+#navigation {
+  width: 100%;
+}
+#navigation .logodiv a {
+  margin: 0 -15px;
+  position: absolute;
+}
+#navigation .logodiv .logo {
+  position: absolute;
+  top: -150px;
+  z-index: 1;
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.55, 1.57);
+}
+#navigation .navmenu ul {
+  margin: 0;
+  padding: 15px;
+  float: right;
+}
+#navigation .navmenu ul li {
+  font-size: 14px;
+  padding: 2px 15px;
+  display: inline-block;
+  list-style-type: none;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  transition: all .5s ease;
+}
+#navigation .navmenu ul li a {
+  text-decoration: none;
+  color: black;
+}
+#navigation .navmenu ul li:hover {
+  border: 2px solid #2ec8a6;
+}
