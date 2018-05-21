@@ -72,6 +72,7 @@ body {
 
 #navigation {
   width: 100%;
+  background: lightgray;
 }
 #navigation .logodiv a {
   margin: 0 -15px;
@@ -101,6 +102,82 @@ body {
   text-decoration: none;
   color: black;
 }
-#navigation .navmenu ul li:hover {
+#navigation .navmenu ul li:nth-child(-n+7):hover {
   border: 2px solid #2ec8a6;
+}
+
+#mybootslider {
+  width: 100%;
+}
+#mybootslider .container .row div {
+  font-size: 54px;
+  margin: 0 auto;
+}
+
+#about {
+  width: 100%;
+}
+#about .yeep {
+  position: relative;
+}
+#about .yeep .weirdthing {
+  width: 70px;
+  height: 400px;
+  background: transparent;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  border: 10px solid lightgray;
+  z-index: 1;
+}
+#about .imgdiv {
+  position: relative;
+  z-index: 2;
+  float: right;
+}
+#about .secondoriginal .medicabout {
+  color: black;
+  font-size: 30px;
+  margin: 15px 0;
+}
+#about .secondoriginal .specabout {
+  color: #2ec8a6;
+  font-size: 22px;
+  margin: 30px 0;
+}
+#about .secondoriginal .proin {
+  color: gray;
+  margin: 30px 0;
+}
+#about .secondoriginal .uldiv ul {
+  margin: 40px 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+#about .secondoriginal .uldiv ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+#about .secondoriginal .uldiv ul li i {
+  margin-right: 20px;
+  margin-top: 10px;
+  color: #2ec8a6;
+}
+
+#appointment {
+  width: 100%;
+}
+#appointment .appointback {
+  background: url(../images/appoint.jpg) no-repeat center center;
+}
+#appointment .clock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 50px solid #2ec8a6;
+  border-right: 50px solid transparent;
+  border-left: 50px solid #2ec8a6;
+  border-bottom: 50px solid transparent;
 }

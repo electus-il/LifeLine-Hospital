@@ -1,5 +1,6 @@
 #navigation{
     width: 100%;
+    background: lightgray;
     .logodiv{
         a{
             margin: 0 -15px;
@@ -29,7 +30,7 @@
                     text-decoration: none;
                     color: black;
                 }
-                &:hover{
+                &:nth-child(-n+7):hover{
                     border: 2px solid $mainColor;
                 }
             }

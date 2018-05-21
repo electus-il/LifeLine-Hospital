@@ -1,0 +1,58 @@
+#about{
+    width: 100%;
+    .yeep{
+        position: relative;
+        .weirdthing{
+            width: 70px;
+            height: 400px;
+            background: transparent;
+            position: absolute;
+            top: 45px;
+            left: 0;
+            border: 10px solid lightgray;
+            z-index: 1;
+        }
+    }
+    .imgdiv{
+        position: relative;
+        z-index: 2;
+        float: right;
+        // img{
+        //     width: 100%;
+        // }
+    }
+    .secondoriginal{
+        .medicabout{
+            color: black;
+            font-size: 30px;
+            margin: 15px 0;
+        }
+        .specabout{
+            color: $mainColor;
+            font-size: 22px;
+            margin: 30px 0;
+        }
+        .proin{
+            color: gray;
+            margin: 30px 0;
+        }
+        .uldiv{
+            ul{
+                margin: 40px 0;
+                padding: 0;
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto;
+                li{
+                    list-style-type: none;
+                    display: inline-block;
+                    i{
+                        margin-right: 20px;
+                        margin-top: 10px;
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+    }
+}

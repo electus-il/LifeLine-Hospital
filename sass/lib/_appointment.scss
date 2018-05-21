@@ -1,0 +1,15 @@
+#appointment{
+    width: 100%;
+    .appointback{
+        background: url(../images/appoint.jpg) no-repeat center center;
+    }
+    .clock{
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-top: 50px solid $mainColor;
+        border-right: 50px solid transparent;
+        border-left: 50px solid $mainColor;
+        border-bottom: 50px solid transparent;
+    }
+}
