@@ -3,13 +3,103 @@
     .appointback{
         background: url(../images/appoint.jpg) no-repeat center center;
     }
-    .clock{
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-top: 50px solid $mainColor;
-        border-right: 50px solid transparent;
-        border-left: 50px solid $mainColor;
-        border-bottom: 50px solid transparent;
+    .Aragorn{
+        img{
+            position: absolute;
+            top: 152px;
+            left: 655px;
+            z-index: 20;
+            width: 40px;
+        }
+        i{
+            position: absolute;
+            top: 20px;
+            left: 17px;
+            font-size: 32px;
+            color: white;
+            z-index: 5;
+        }
+        .clock{
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-top: 50px solid $mainColor;
+            border-right: 50px solid transparent;
+            border-left: 50px solid $mainColor;
+            border-bottom: 50px solid transparent;
+            z-index: 2;
+            
+        }
+        .overlay{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background: rgba(black, .8);
+        }
+        .row{
+            position: relative;
+            z-index: 1;
+            .opening{
+                padding:  50px 90px;
+                color: white;
+                font-size: 22px;
+                font-family: 'Montserrat', sans-serif;
+                .schedule{
+                    margin: 0;
+                    padding: 0;
+                    font-size: 16px;
+                    li{
+                        list-style-type: none;
+                        color: lightgray;
+                    }
+                }
+            }
+            .booking{
+                font-family: 'Montserrat', sans-serif !important;
+                color: white;
+                font-size: 22px;
+                padding:  50px 70px;
+                span{
+                    font-size: 16px;
+                    color: lightgray;
+                }
+                a{
+                    text-decoration: none;
+                    color: lightgray;
+                    transition: all .5s ease;
+                    font-size: 16px;
+                    &:hover{
+                        color: $mainColor;
+                    }
+                }
+                .appointlink{
+                    padding: 0;
+                }
+                .emergency{
+                    width: 485px;
+                    height: 45px;
+                    background: $mainColor;
+                    position: absolute;
+                    top: 150px;
+                    left: 85px;
+                }
+                .emergencyside{
+                    // width: 5px;
+                    // height: 5px;
+                    // background: $mainColor;
+                    border-top: 30px solid $mainColor;
+                    border-right: 19px solid $mainColor;
+                    border-left: 35px solid transparent;
+                    border-bottom: 15px solid transparent;
+                    position: absolute;
+                    top: 150px;
+                    left: 31px;
+                    z-index: 15;
+                }
+            }
+        }
     }
 }

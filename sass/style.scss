@@ -3,7 +3,7 @@ $mainColor: #2ec8a6;
 
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    //font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -14,3 +14,7 @@ body{
 @import "lib/mybootslider";
 @import "lib/about";
 @import "lib/appointment";
+@import "lib/choice";
+@import "lib/specs";
+@import "lib/videosec";
+@import "lib/events";

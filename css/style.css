@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -72,7 +71,6 @@ body {
 
 #navigation {
   width: 100%;
-  background: lightgray;
 }
 #navigation .logodiv a {
   margin: 0 -15px;
@@ -172,7 +170,22 @@ body {
 #appointment .appointback {
   background: url(../images/appoint.jpg) no-repeat center center;
 }
-#appointment .clock {
+#appointment .Aragorn img {
+  position: absolute;
+  top: 152px;
+  left: 655px;
+  z-index: 20;
+  width: 40px;
+}
+#appointment .Aragorn i {
+  position: absolute;
+  top: 20px;
+  left: 17px;
+  font-size: 32px;
+  color: white;
+  z-index: 5;
+}
+#appointment .Aragorn .clock {
   position: absolute;
   top: 0;
   left: 0;
@@ -180,4 +193,195 @@ body {
   border-right: 50px solid transparent;
   border-left: 50px solid #2ec8a6;
   border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+#appointment .Aragorn .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.8);
+}
+#appointment .Aragorn .row {
+  position: relative;
+  z-index: 1;
+}
+#appointment .Aragorn .row .opening {
+  padding: 50px 90px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+#appointment .Aragorn .row .opening .schedule {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+#appointment .Aragorn .row .opening .schedule li {
+  list-style-type: none;
+  color: lightgray;
+}
+#appointment .Aragorn .row .booking {
+  font-family: 'Montserrat', sans-serif !important;
+  color: white;
+  font-size: 22px;
+  padding: 50px 70px;
+}
+#appointment .Aragorn .row .booking span {
+  font-size: 16px;
+  color: lightgray;
+}
+#appointment .Aragorn .row .booking a {
+  text-decoration: none;
+  color: lightgray;
+  transition: all .5s ease;
+  font-size: 16px;
+}
+#appointment .Aragorn .row .booking a:hover {
+  color: #2ec8a6;
+}
+#appointment .Aragorn .row .booking .appointlink {
+  padding: 0;
+}
+#appointment .Aragorn .row .booking .emergency {
+  width: 485px;
+  height: 45px;
+  background: #2ec8a6;
+  position: absolute;
+  top: 150px;
+  left: 85px;
+}
+#appointment .Aragorn .row .booking .emergencyside {
+  border-top: 30px solid #2ec8a6;
+  border-right: 19px solid #2ec8a6;
+  border-left: 35px solid transparent;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  top: 150px;
+  left: 31px;
+  z-index: 15;
+}
+
+#choice {
+  width: 100%;
+  background: url(../images/choice.jpg) no-repeat center center;
+  background-size: 100%;
+  position: relative;
+  padding: 100px 0;
+}
+#choice .secondoverlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+#choice .Boromir .mygrreed .samplepars {
+  background: white;
+  height: 50px;
+  border: 1px solid orange;
+  margin: 10px 0;
+}
+#choice .Boromir span {
+  display: block;
+}
+
+#specs {
+  width: 100%;
+}
+#specs .aligning {
+  text-align: center;
+}
+#specs .crew {
+  text-align: center;
+}
+#specs .crew .leftsidething {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  border-top: 120px solid #2ec8a6;
+  border-left: 0 solid #2ec8a6;
+  border-right: 120px solid transparent;
+  border-bottom: 0 solid transparent;
+}
+#specs .crew .leftsideimg {
+  position: absolute;
+  top: 20px;
+  left: 35px;
+}
+#specs .crew .actualcrew {
+  width: 100%;
+}
+#specs .crew .contact {
+  padding: 20px 40px;
+  color: white;
+  background: #2ec8a6;
+}
+#specs .crew .contact i {
+  border: 2px solid #41d3b3;
+  padding: 10px;
+  float: left;
+}
+#specs .crew .contact .facebook {
+  padding: 10px 13px;
+}
+
+#videosec {
+  width: 100%;
+  background: url(../images/video.jpg);
+  background-size: 100%;
+  z-index: -1;
+}
+#videosec .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 0;
+}
+#videosec .margining {
+  padding: 200px 0;
+}
+#videosec .margining .aligneddiv {
+  text-align: center;
+  color: white;
+}
+#videosec .margining .aligneddiv .font30 {
+  font-size: 30px;
+}
+#videosec .margining .aligneddiv .font40 {
+  font-size: 40px;
+}
+#videosec .margining .playbutton {
+  float: right;
+}
+#videosec .margining .playbutton a {
+  transition: all .5s ease;
+  color: white;
+  text-decoration: none;
+}
+#videosec .margining .playbutton a:hover {
+  color: orange;
+}
+#videosec .margining .aboutus {
+  padding: 19px 0;
+}
+
+#events {
+  width: 100%;
+}
+#events .comeup {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  line-height: 24px;
+}
+#events .rightsliders {
+  float: right;
+}
+#events .crewtip img {
+  width: 100%;
 }
