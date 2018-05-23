@@ -1,3 +1,12 @@
-var logo = document.querySelector(".logo");
+var countdiv = document.querySelector(".count");
 
-    $(".logo").animate({top:"0"}).css({display: "block"})
+var count = 0;
+
+var stats = setInterval(function(){
+        countdiv.innerHTML = count;
+        count+=10;
+        if(count > 2340){
+            clearInterval(stats);
+        }
+},5)
+

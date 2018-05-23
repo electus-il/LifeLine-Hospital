@@ -382,6 +382,56 @@ body {
 #events .rightsliders {
   float: right;
 }
-#events .crewtip img {
+#events .crewtip {
+  margin-left: -30px;
+}
+#events .crewtip .fehle {
   width: 100%;
+}
+#events .crewtip .leftsidething {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  border-top: 80px solid #2ec8a6;
+  border-left: 0 solid #2ec8a6;
+  border-right: 80px solid transparent;
+  border-bottom: 0 solid transparent;
+}
+#events .crewtip i {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  color: white;
+  font-size: 16px;
+  z-index: 20;
+}
+#events .inform {
+  background: lightgray;
+  margin-left: -30px;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+
+#statistics {
+  width: 100%;
+  background: url(../images/statistics.jpg) no-repeat center center;
+}
+#statistics .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+}
+#statistics .statbox {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #2ec8a6;
+  background: white;
+  padding: 30px 28px;
+  transition: all .5s ease;
+  position: relative;
+  left: calc(50% - 50px);
+}
+#statistics .statbox:hover {
+  background: #2ec8a6;
 }
