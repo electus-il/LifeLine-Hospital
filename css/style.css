@@ -209,7 +209,7 @@ body {
   z-index: 1;
 }
 #appointment .Aragorn .row .opening {
-  padding: 50px 90px;
+  padding: 50px 70px;
   color: white;
   font-size: 22px;
   font-family: 'Montserrat', sans-serif;
@@ -227,7 +227,7 @@ body {
   font-family: 'Montserrat', sans-serif !important;
   color: white;
   font-size: 22px;
-  padding: 50px 70px;
+  padding: 50px 60px;
 }
 #appointment .Aragorn .row .booking span {
   font-size: 16px;
@@ -382,13 +382,13 @@ body {
 #events .rightsliders {
   float: right;
 }
-#events .crewtip {
-  margin-left: -30px;
+#events .okayy {
+  margin: 0 -15px;
 }
-#events .crewtip .fehle {
+#events .okayy .crewtip .fehle {
   width: 100%;
 }
-#events .crewtip .leftsidething {
+#events .okayy .crewtip .leftsidething {
   position: absolute;
   top: 0;
   left: 15px;
@@ -397,7 +397,7 @@ body {
   border-right: 80px solid transparent;
   border-bottom: 0 solid transparent;
 }
-#events .crewtip i {
+#events .okayy .crewtip i {
   position: absolute;
   top: 15px;
   left: 30px;
@@ -405,7 +405,7 @@ body {
   font-size: 16px;
   z-index: 20;
 }
-#events .inform {
+#events .okayy .inform {
   background: lightgray;
   margin-left: -30px;
   width: 100%;
@@ -422,7 +422,10 @@ body {
   height: 100%;
   background: rgba(255, 255, 255, 0.8);
 }
-#statistics .statbox {
+#statistics .overlay .stats {
+  text-align: center;
+}
+#statistics .overlay .stats .statbox {
   width: 100px;
   height: 100px;
   border: 2px solid #2ec8a6;
@@ -431,7 +434,137 @@ body {
   transition: all .5s ease;
   position: relative;
   left: calc(50% - 50px);
+  text-align: center;
 }
-#statistics .statbox:hover {
+#statistics .overlay .stats .statbox:hover {
   background: #2ec8a6;
+}
+
+#blog {
+  width: 100%;
+}
+#blog .news_blog {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: black;
+}
+#blog .theline {
+  text-align: center;
+}
+#blog .proingrav {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+#blog .blogcard1 img {
+  width: 100%;
+  transition: all .5s ease;
+}
+#blog .blogcard1 img:hover {
+  transform: scale(1.2);
+}
+#blog .blogcard1 .morelink {
+  text-decoration: none;
+  color: #2ec8a6;
+}
+#blog .blogcard1 .blogimg1 {
+  position: relative;
+  overflow: hidden;
+}
+#blog .blogcard1 .blogimg1 .comment_like {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#blog .blogcard1 .blogimg1 .comment_like .intheline {
+  display: inline-block;
+  background: white;
+  padding: 5px;
+  margin: 10px;
+  transition: all .5s ease;
+}
+#blog .blogcard1 .blogimg1 .comment_like .intheline:hover {
+  background: #2ec8a6;
+  color: white;
+}
+#blog .blogcard2 img {
+  width: 100%;
+  transition: all .5s ease;
+}
+#blog .blogcard2 img:hover {
+  transform: scale(1.2);
+}
+#blog .blogcard2 .morelink {
+  text-decoration: none;
+  color: #2ec8a6;
+}
+#blog .blogcard2 .blogimg2 {
+  position: relative;
+  overflow: hidden;
+}
+#blog .blogcard2 .blogimg2 .comment_like {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#blog .blogcard2 .blogimg2 .comment_like .intheline {
+  display: inline-block;
+  background: white;
+  padding: 5px;
+  margin: 10px;
+  transition: all .5s ease;
+}
+#blog .blogcard2 .blogimg2 .comment_like .intheline:hover {
+  background: #2ec8a6;
+  color: white;
+}
+#blog .blogcard3 img {
+  width: 100%;
+  transition: all .5s ease;
+}
+#blog .blogcard3 img:hover {
+  transform: scale(1.2);
+}
+#blog .blogcard3 .morelink {
+  text-decoration: none;
+  color: #2ec8a6;
+}
+#blog .blogcard3 .blogimg3 {
+  position: relative;
+  overflow: hidden;
+}
+#blog .blogcard3 .blogimg3 .comment_like {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#blog .blogcard3 .blogimg3 .comment_like .intheline {
+  display: inline-block;
+  background: white;
+  padding: 5px;
+  margin: 10px;
+  transition: all .5s ease;
+}
+#blog .blogcard3 .blogimg3 .comment_like .intheline:hover {
+  background: #2ec8a6;
+  color: white;
+}
+
+#patsay {
+  width: 100%;
+  background: url(../images/patbg.jpg) no-repeat center center;
+  background-size: 100%;
+}
+#patsay .overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+#patsay .overlay .patients {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
 }

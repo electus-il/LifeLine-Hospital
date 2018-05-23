@@ -1,0 +1,119 @@
+#blog{
+    width: 100%;
+    .news_blog{
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: black;
+    }
+    .theline{
+        text-align: center;
+    }
+    .proingrav{
+        text-align: center;
+        color: gray;
+        font-weight: 400;
+        font-size: 16px; 
+        font-family: 'Open Sans', sans-serif;
+    }
+    .blogcard1{
+        img{
+            width: 100%;
+            transition: all .5s ease;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        .morelink{
+            text-decoration: none;
+            color: $mainColor;
+        }
+        .blogimg1{
+            position: relative;
+            overflow: hidden;
+            .comment_like{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                .intheline{
+                    display: inline-block;
+                    background: white;
+                    padding: 5px;
+                    margin: 10px;
+                    transition: all .5s ease;
+                    &:hover{
+                        background: $mainColor;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .blogcard2{
+        img{
+            width: 100%;
+            transition: all .5s ease;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        .morelink{
+            text-decoration: none;
+            color: $mainColor;
+        }
+        .blogimg2{
+            position: relative;
+            overflow: hidden;
+            .comment_like{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                .intheline{
+                    display: inline-block;
+                    background: white;
+                    padding: 5px;
+                    margin: 10px;
+                    transition: all .5s ease;
+                    &:hover{
+                        background: $mainColor;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .blogcard3{
+        img{
+            width: 100%;
+            transition: all .5s ease;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        .morelink{
+            text-decoration: none;
+            color: $mainColor;
+        }
+        .blogimg3{
+            position: relative;
+            overflow: hidden;
+            .comment_like{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                .intheline{
+                    display: inline-block;
+                    background: white;
+                    padding: 5px;
+                    margin: 10px;
+                    transition: all .5s ease;
+                    &:hover{
+                        background: $mainColor;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
