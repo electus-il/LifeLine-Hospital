@@ -1,0 +1,21 @@
+#enquiry{
+    width: 100%;
+    background: $mainColor;
+    padding: 80px 0;
+    .firststep{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: white;
+    }
+    button{
+        background: white;
+        border: 2px solid white;
+        border-radius: 50px;
+        font-size: 16px;
+        transition: all .5s ease;
+        &:hover{
+            background: $mainColor;
+        }
+    }
+}

@@ -9,6 +9,24 @@
             font-size: 30px;
             font-weight: 700;
             color: white;
+            .saybutt{
+                float: right; 
+            }
+        }
+        .audit{
+            background: rgba(white, .2);
+            .leftsidething{
+                position: absolute;
+                top: 0;
+                left: 15px;
+                border-top: 80px solid $mainColor;
+                border-left: 0 solid $mainColor;
+                border-right: 80px solid transparent;
+                border-bottom: 0 solid transparent;
+            }
+            .adit{
+                display: inline-block;
+            }
         }
     }
 }
