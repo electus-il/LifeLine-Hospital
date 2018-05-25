@@ -1,13 +1,7 @@
 $(".logo").animate({top: "0"});
 
-
-
-
-
 var countdiv = document.querySelector(".count");
-
 var count = 0;
-
 var stats = setInterval(function(){
         countdiv.innerHTML = count;
         count+=10;
@@ -24,3 +18,4 @@ function myMap() {
     var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
 
+$(".collapsed").css({transform: "rotate(-90deg)"})
