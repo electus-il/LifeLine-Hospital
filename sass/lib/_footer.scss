@@ -1,0 +1,80 @@
+#footer{
+    width: 100%;
+    background: black;
+    .borred{
+        border-bottom: 1px solid gray;
+    }
+    .withicon{
+        margin: 0 -15px;
+        border-right: 1px solid gray;
+        .morelink{
+            text-decoration: none;
+            color: $mainColor;
+        }
+        .logoul{
+            margin: 0 -15px;
+            ul{
+                padding: 20px;
+                margin: 0 -15px;
+                li{
+                    list-style-type: none;
+                    display: inline-block;
+                    font-size: 14px;
+                    color: white;
+                    //width: 35px;
+                    //text-align: center;
+                    margin: 5px;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        transition: all .5s ease;
+                        &:hover{
+                            color: $mainColor;
+                        }
+                    }
+                    // &{
+                    //     margin: 0 5px;
+                    // }
+                    &:nth-child(2){
+                        i{
+                            transform: rotate(90deg);
+                        }
+                    }
+                    i{
+                        width: 35px;
+                        height: 35px;
+                        color: white;
+                        //border: 1px solid white;
+                        padding: 10px;
+                        font-size: 13px;
+                        border: 2px solid lighten(black, 15%);
+                        margin: 0 5px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .userfulul{
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
+        }
+    }
+    .hoursul{
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
+        }
+    }
+    .contactul{
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+    }
+}

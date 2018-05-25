@@ -624,7 +624,7 @@ body {
   margin: 15px 0;
   background: transparent;
   border: 2px solid #67dcc2;
-  color: #67dcc2;
+  color: white;
 }
 #apppoint .inputs .normalin::placeholder {
   color: #67dcc2;
@@ -635,6 +635,7 @@ body {
   height: 100px;
   background: transparent;
   border: 2px solid #67dcc2;
+  color: white;
 }
 #apppoint .inputs .messagebox::placeholder {
   color: #67dcc2;
@@ -681,4 +682,77 @@ body {
 }
 #enquiry button:hover {
   background: #2ec8a6;
+}
+
+#footer {
+  width: 100%;
+  background: black;
+}
+#footer .borred {
+  border-bottom: 1px solid gray;
+}
+#footer .withicon {
+  margin: 0 -15px;
+  border-right: 1px solid gray;
+}
+#footer .withicon .morelink {
+  text-decoration: none;
+  color: #2ec8a6;
+}
+#footer .withicon .logoul {
+  margin: 0 -15px;
+}
+#footer .withicon .logoul ul {
+  padding: 20px;
+  margin: 0 -15px;
+}
+#footer .withicon .logoul ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  margin: 5px;
+}
+#footer .withicon .logoul ul li a {
+  color: white;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+#footer .withicon .logoul ul li a:hover {
+  color: #2ec8a6;
+}
+#footer .withicon .logoul ul li:nth-child(2) i {
+  transform: rotate(90deg);
+}
+#footer .withicon .logoul ul li i {
+  width: 35px;
+  height: 35px;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  border: 2px solid #262626;
+  margin: 0 5px;
+  text-align: center;
+}
+#footer .userfulul {
+  margin: 0;
+  padding: 0;
+}
+#footer .userfulul li {
+  list-style: none;
+}
+#footer .hoursul {
+  margin: 0;
+  padding: 0;
+}
+#footer .hoursul li {
+  list-style: none;
+}
+#footer .contactul {
+  margin: 0;
+  padding: 0;
+}
+#footer .contactul li {
+  list-style: none;
+  display: inline-block;
 }
