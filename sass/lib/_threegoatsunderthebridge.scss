@@ -1,0 +1,27 @@
+#threegoatsunderthebridge{
+    width: 100%;
+    .goat{
+        text-align: center;
+        border: 2px solid $mainColor;
+        padding: 60px 50px;
+        h5{
+            margin: 0;
+        }
+        p{
+            margin: 20px;
+        }
+        a{
+            color: $mainColor;
+            text-decoration: none;
+        }
+    }
+    .heartbg{
+        background: url(../images/heartbg.png) no-repeat center center;
+    }
+    .hoursbg{
+        background: url(../images/24bg.png) no-repeat center center;
+    }
+    .toothbg{
+        background: url(../images/toothbg.png) no-repeat center center;
+    }
+}

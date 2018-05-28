@@ -4,15 +4,14 @@
         text-align: center;
     }
     .crew{
+        margin: 0 -15px;
         text-align: center;
         .leftsidething{
             position: absolute;
             top: 0;
             left: 15px;
             border-top: 120px solid $mainColor;
-            border-left: 0 solid $mainColor;
             border-right: 120px solid transparent;
-            border-bottom: 0 solid transparent;
         }
         .leftsideimg{
             position: absolute;
@@ -24,16 +23,21 @@
         }
         .contact{
 
-            padding: 20px 40px;
+            //padding: 20px;
             color: white;
             background: $mainColor;
-            i{
+            .con{
+                width: 35px;
                 border: 2px solid lighten($mainColor, 6%);
-                padding: 10px;
-                float: left;
-            }
-            .facebook{
-                padding: 10px 13px;
+                //padding: 10px;
+                i{
+                    
+                    // float: left;
+                    text-align: center;
+                }
+                .facebook{
+                    // padding: 10px 13px;
+                }
             }
         }
     }

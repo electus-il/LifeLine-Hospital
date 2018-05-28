@@ -3,7 +3,7 @@ $mainColor: #2ec8a6;
 
 body{
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -12,6 +12,7 @@ body{
 @import "lib/header";
 @import "lib/navigation";
 @import "lib/mybootslider";
+@import "lib/threegoatsunderthebridge";
 @import "lib/about";
 @import "lib/appointment";
 @import "lib/choice";

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -76,15 +76,15 @@ body {
   top: 0;
   z-index: 15;
   background: rgba(255, 255, 255, 0.7);
-  margin-bottom: -59px;
 }
 #navigation .logodiv a {
   margin: 0 -15px;
   position: relative;
+  top: -150px;
 }
 #navigation .logodiv a .logo {
   position: absolute;
-  top: -150px;
+  top: 0;
   z-index: 1;
   transition: all 0.5s cubic-bezier(0.42, 0, 0.55, 1.57);
 }
@@ -116,6 +116,34 @@ body {
 #mybootslider .container .row div {
   font-size: 54px;
   margin: 0 auto;
+}
+
+#threegoatsunderthebridge {
+  width: 100%;
+}
+#threegoatsunderthebridge .goat {
+  text-align: center;
+  border: 2px solid #2ec8a6;
+  padding: 60px 50px;
+}
+#threegoatsunderthebridge .goat h5 {
+  margin: 0;
+}
+#threegoatsunderthebridge .goat p {
+  margin: 20px;
+}
+#threegoatsunderthebridge .goat a {
+  color: #2ec8a6;
+  text-decoration: none;
+}
+#threegoatsunderthebridge .heartbg {
+  background: url(../images/heartbg.png) no-repeat center center;
+}
+#threegoatsunderthebridge .hoursbg {
+  background: url(../images/24bg.png) no-repeat center center;
+}
+#threegoatsunderthebridge .toothbg {
+  background: url(../images/toothbg.png) no-repeat center center;
 }
 
 #about {
@@ -228,6 +256,7 @@ body {
   color: white;
   font-size: 22px;
   padding: 50px 60px;
+  position: relative;
 }
 #appointment .Aragorn .row .booking span {
   font-size: 16px;
@@ -251,9 +280,8 @@ body {
   background: #2ec8a6;
   position: absolute;
   top: 150px;
-  left: 85px;
+  right: 0;
   text-align: center;
-  overflow: hidden;
 }
 #appointment .Aragorn .row .booking .emergency h5 {
   line-height: 40px;
@@ -314,6 +342,7 @@ body {
   text-align: center;
 }
 #specs .crew {
+  margin: 0 -15px;
   text-align: center;
 }
 #specs .crew .leftsidething {
@@ -321,9 +350,7 @@ body {
   top: 0;
   left: 15px;
   border-top: 120px solid #2ec8a6;
-  border-left: 0 solid #2ec8a6;
   border-right: 120px solid transparent;
-  border-bottom: 0 solid transparent;
 }
 #specs .crew .leftsideimg {
   position: absolute;
@@ -334,17 +361,15 @@ body {
   width: 100%;
 }
 #specs .crew .contact {
-  padding: 20px 40px;
   color: white;
   background: #2ec8a6;
 }
-#specs .crew .contact i {
+#specs .crew .contact .con {
+  width: 35px;
   border: 2px solid #41d3b3;
-  padding: 10px;
-  float: left;
 }
-#specs .crew .contact .facebook {
-  padding: 10px 13px;
+#specs .crew .contact .con i {
+  text-align: center;
 }
 
 #videosec {

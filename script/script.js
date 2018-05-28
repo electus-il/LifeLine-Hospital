@@ -1,4 +1,4 @@
-$(".logo").animate({top: "0"});
+$("#navigation a").css({top: "0"});
 
 var countdiv = document.querySelector(".count");
 var count = 0;
@@ -16,6 +16,16 @@ function myMap() {
         zoom:5,
     };
     var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    }
+}
 
-$(".collapsed").css({transform: "rotate(-90deg)"})
+$(".collapsed").css({transform: "rotate(-90deg)"});
+
+
+$(window).scroll(function myscroll(){
+    if($(window).scrollTop() > 200){
+        $("#navigation").css({background: "white"});
+    }
+})
+
+
+
